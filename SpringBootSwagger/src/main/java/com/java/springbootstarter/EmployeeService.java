@@ -68,7 +68,7 @@ public class EmployeeService {
         for(EmployeeAccount employeeAccount : employees){
 
             if(employeeAccount.getEmployeeID().equals(empID) && employeeAccount.getEmployeeFirstName() != null){
-                employeeAccount.setEmployeeFirstName("LALALA");
+                employeeAccount.setEmployeeFirstName("Happy");
                 return employeeAccount;
             }
 
